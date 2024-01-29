@@ -48,9 +48,9 @@ $font = 'Rubik-Regular';
 // Draw the grid
 for ($i = 0; $i < $boardSize; $i++) {
     for ($j = 0; $j < $boardSize; $j++) {
-        $x1 = 273 + $j * $cellSize;
+        $x1 = 10 + $j * $cellSize;
         $y1 = 10 + $i * $cellSize;
-        $x2 = 273 + ($j + 1) * $cellSize;
+        $x2 = 10 + ($j + 1) * $cellSize;
         $y2 = 10 + ($i + 1) * $cellSize;
 
         // Draw the cell border
@@ -69,10 +69,16 @@ for ($i = 0; $i < $boardSize; $i++) {
 // Draw the title 
 $fontColor = imagecolorallocate($image, 132, 101, 203);
 $font = 'Rubik-Black'; // Change the font path as needed
-imagettftext($image, 24, 0, 10, 36, $fontColor, $font, '2048 Game');
+imagettftext($image, 24, 0, 309, 36, $fontColor, $font, '2048 Game');
 
 // Save the image to a file (you can also use imagepng, imagejpeg, etc.)
 imagepng($image, '2048_board.png');
+
+// Ignore
+/* 
+$identifier = implode('-',$boardArray); 
+imagepng($image, 'b'.$identifier.'png');
+*/
 
 // Output the image to the browser
 header('Content-Type: image/png');
