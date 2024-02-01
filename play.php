@@ -249,6 +249,7 @@ $boardString = implode(',',$boardArray);
 		<div id="page">
       <h1>2048 Frame</h1>
       <p>Fully playable 2048 in a Farcaster Frame</p>
+			<p>Play it here: <a href="https://warpcast.com/m0nt0y4/0x8c27e729">warpcast.com/m0nt0y4/0x8c27e729</a></p>
       <p>Want to see the code? Go to: <a href="https://github.com/Montoya/2048frame/">github.com/Montoya/2048frame/</a></p>
       <p>It's open source (MIT License), feel free to use it for your own projects.</p>
     </div>
