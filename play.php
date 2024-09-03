@@ -223,6 +223,9 @@ $boardString = implode(',',$boardArray);
 		<meta property="fc:frame:button:3" content="⬇️" />
 		<meta property="fc:frame:button:4" content="⬅️" />
 		<meta property="fc:frame:post_url" content="https://homerow.club/2048/play.php?b=<?=$boardString?>" />
+		<meta property="of:accepts:xmtp" content="2024-02-01" />
+		<meta property="of:accepts:anonymous" content="1.0" />
+		<meta property="of:version" content="vNext" />
 		<link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
       <style type="text/css">
         body { 
