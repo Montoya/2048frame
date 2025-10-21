@@ -3,4 +3,6 @@ Play 2048 in a Farcaster Frame
 
 Not JS, PHP. Sorry about that!
 
-Play it here: https://warpcast.com/m0nt0y4/0x8c27e729
+No longer playable as Frames v1 has been deprecated, but saved her for posterity with an image of what it looked like: 
+
+![first-frame](https://github.com/user-attachments/assets/8ce56b3c-ae04-416b-b6ec-e3376a6db64b)
